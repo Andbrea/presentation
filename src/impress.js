@@ -1,4 +1,4 @@
-/*! Licensed under MIT License - http://github.com/impress/impress.js */
+/* ! Licensed under MIT License - http://github.com/impress/impress.js */
 /**
  * impress.js
  *
