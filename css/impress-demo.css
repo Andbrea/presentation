@@ -45,11 +45,10 @@ table {
     border-spacing: 0;
 }
 
-
 body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
-    background: rgb(201, 226, 247);
+    background: #E0F5F5;
 }
 
 /*
@@ -162,12 +161,12 @@ a:focus {
     height: 700px;
     padding: 40px 60px;
 
-    background-color: rgb(223,145,145);
+    background-color: #068466;
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 
-    color: rgb(87, 91, 94);
+    color: rgb(47, 49, 51);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
     font-family: 'Open Sans', Arial, sans-serif;
@@ -194,14 +193,14 @@ a:focus {
     display: flex;
     flex-direction:row;
 }
-.slideMood {
+.slideMood, .angelinaCont {
     height: auto;
     margin-left: 280px;
     margin-top: -230px;
     display: flex;
     flex-direction:row;
 }
-.martys {
+.martys{
     height: auto;
     margin-left: 0px;
     margin-top: 10px;
@@ -225,10 +224,38 @@ a:focus {
 .meJacob {
     max-width: 450px;
 }
-
+.evacuation {
+    max-width: 350px;
+    height: auto;
+    margin-top: 10px;
+    flex-direction: row;
+}
+.evacuationContainer, .hansam{
+    flex-direction: row;
+    align-items: start;
+    margin: 10px;
+    justify-content: space-between;
+}
+.pingpong{
+    max-width: 250px;
+    display: flex;
+    align-items: start;
+    flex-direction:row; 
+    margin-right: 20px;
+    padding: 5px;
+}
+.angelina, .eliaP {
+    max-width: 250px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:10px;
+    margin-top: 10px;
+}
 
 .hansam, .mood, .martys,
-.eveningsSlide, .hamilton {
+.eveningsSlide, .hamilton,
+.evacuationContainer, .angelinaCont,
+.eliaCont {
     display: flex;
 }
 .morePhotos {
@@ -242,7 +269,6 @@ a:focus {
 .clientInfo, ul {
     display: flex;
     flex-direction: column;
-    list-style-type: disc;
     padding-left: 20px;
     margin-top: 10px;
 }
