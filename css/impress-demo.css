@@ -176,11 +176,16 @@ a:focus {
 .slide q strong {
     white-space: nowrap;
 }
-.bagels {
+.bagels{
     max-width: 341px;
     margin-left: 159px;
     margin-top: 21px;
 } 
+.grain{
+    max-width: 323px;
+    margin-left: 158px;
+    margin-top: -34px;
+}
 
 .slideMood,
 .slideWeekTwo, .hansam {
@@ -227,7 +232,7 @@ a:focus {
     justify-content: space-between;
 }
 .pingpong{
-    max-width: 250px;
+    max-width: 270px;
     display: flex;
     align-items: start;
     flex-direction:row; 
@@ -254,7 +259,7 @@ a:focus {
     justify-content: space-between;
 }
 .bowlingPhoto{
-    max-width: 250px;
+    max-width: 300px;
     margin-right: 10px;
     margin-top: 10px;
 }
