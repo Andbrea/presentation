@@ -176,13 +176,12 @@ a:focus {
 .slide q strong {
     white-space: nowrap;
 }
-.slideBagels {
-    height: auto;
-    margin-left: 400px;
-    margin-top: -150px;
-    display: flex;
-    flex-direction:row;
-}
+.bagels {
+    max-width: 341px;
+    margin-left: 159px;
+    margin-top: 21px;
+} 
+
 .slideMood,
 .slideWeekTwo, .hansam {
     height: auto;
