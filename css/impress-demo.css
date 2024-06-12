@@ -260,6 +260,20 @@ a:focus {
     margin-left: 100px;
     margin-top: -100px;
 }
+.bowling {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.bowlingPhoto{
+    max-width: 250px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.columnCont {
+    display: flex;
+    flex-direction: column;
+}
 .angelina, .eliaP, .bloomPhoto {
     max-width: 250px;
     flex-direction: row;
@@ -320,6 +334,9 @@ a:focus {
     -ms-transform:     translateZ(50px);
     -o-transform:      translateZ(50px);
     transform:         translateZ(50px);
+}
+.subtitle{
+    font-size: 20px;
 }
 
 #title .footnote {
@@ -421,8 +438,8 @@ a:focus {
     The 'imagination' step is again some boring font-sizing.
 */
 
-#imagination {
-    width: 600px;
+#byebye {
+    width: 700px;
 }
 
 #imagination .imagination {
