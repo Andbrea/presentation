@@ -31,6 +31,9 @@ body {
 ol, ul {
     list-style: none;
 }
+li {
+    margin-top: 5px;
+}
 blockquote, q {
     quotes: none;
 }
@@ -189,11 +192,12 @@ a:focus {
 .slideBagels {
     height: auto;
     margin-left: 400px;
-    margin-top: -250px;
+    margin-top: -150px;
     display: flex;
     flex-direction:row;
 }
-.slideMood, .angelinaCont {
+.slideMood,
+.slideWeekTwo, .hansam {
     height: auto;
     margin-left: 280px;
     margin-top: -230px;
@@ -230,7 +234,7 @@ a:focus {
     margin-top: 10px;
     flex-direction: row;
 }
-.evacuationContainer, .hansam{
+.evacuationContainer{
     flex-direction: row;
     align-items: start;
     margin: 10px;
@@ -244,18 +248,32 @@ a:focus {
     margin-right: 20px;
     padding: 5px;
 }
-.angelina, .eliaP {
+.hansam{
+    margin-top: -170px;
+}
+.martysList {
+    display: flex;
+    flex-direction: row;
+}
+.ramenPhoto {
+    max-width: 400px;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.angelina, .eliaP, .bloomPhoto {
     max-width: 250px;
     flex-direction: row;
     justify-content: space-between;
     margin-right:10px;
     margin-top: 10px;
 }
-
+.slideWeekTwo {
+    margin-top: -150px;
+}
 .hansam, .mood, .martys,
 .eveningsSlide, .hamilton,
 .evacuationContainer, .angelinaCont,
-.eliaCont {
+.eliaCont, .slideWeekTwo {
     display: flex;
 }
 .morePhotos {
@@ -270,25 +288,8 @@ a:focus {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
-/* ul {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 150px;
-} */
-
-/*
-    And now we start to style each step separately.
-
-    I agree that this may be not the most efficient, object-oriented and
-    scalable way of styling, but most of steps have quite a custom look
-    and typography tricks here and there, so they had to be styled separately.
-
-    First is the title step with a big <h1> (no room for padding) and some
-    3D positioning along Z axis.
-*/
-
 #title {
     padding: 0;
 }
@@ -325,12 +326,6 @@ a:focus {
     font-size: 32px;
 }
 
-/*
-    Second step is nothing special, just a text with a link, so it doesn't need
-    any special styling.
-
-    Let's move to 'big thoughts' with centered text and custom font sizes.
-*/
 #big {
     width: 600px;
     text-align: center;
